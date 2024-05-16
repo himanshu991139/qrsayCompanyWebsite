@@ -1,0 +1,113 @@
+.hdr-box {
+  padding: 0rem 1rem !important;
+}
+
+.hdr-box::after {
+  content: "\f488";
+  display: inline-block;
+  font-family: "Ionicons";
+  font-style: normal;
+  font-size: 1.5rem;
+  font-variant: normal;
+  text-transform: none;
+  text-rendering: auto;
+  line-height: 1;
+  position: absolute;
+  right: 15px;
+  top: 25px;
+}
+
+.hdr-box .icon--secondary {
+  background: #FFF !important;
+}
+
+.hdr-box .icon--secondary img {
+ width: 40px;
+ height: 40px;
+}
+
+.featured-apps [class|="icon-element"][class*="-round"] [class|="icon"][class*="secondary"] {
+  width: 40px;
+  height: 40px;
+  margin-top: 15px;
+}
+
+.featured-apps [class|="icon-element"][class*="-round"] [class|="icon"] i {
+  font-size: 1.5rem;
+  color: #ffffff;
+}
+
+.white-popup {
+  position: relative;
+  background: #FFF;
+  padding: 20px;
+  width: auto;
+  max-width: 500px;
+  margin: 20px auto;
+}
+
+@media (max-width: 767px) {
+
+  .hdr-col {
+    margin-bottom: 1rem !important;
+  }
+
+  .hdr-box {
+    padding-bottom: 1rem !important;
+  }
+
+  .hdr-box .info .text {
+    position: absolute;
+    top: 10px;
+    left: 75px;
+  }
+
+}
+
+@media screen and (max-width: 576px) {
+
+  header nav.main-navigation #logo[class*="height-lg"] a.navbar-brand img,
+  header nav.top-navigation #logo[class*="height-lg"] a.navbar-brand img {
+    max-height: 30px;
+  }
+}
+.sec-col img{
+  height:80px;
+  width:80px;
+  overflow: hidden;
+}
+
+.fut-col .icon {
+  height:70px;
+  width:70px;
+  margin: 0px !important;
+  padding: 0px !important;
+  background:none !important;
+}
+
+
+.fut-col img{
+  height:70px;
+  width:70px;
+  margin: 0px !important;
+  padding: 0px !important;
+  overflow: hidden;
+}
+
+.pac-target-input {
+  width: 100%;
+  margin-bottom: 25px;
+  padding: 0 15px;
+  font-family: "Cabin", sans-serif;
+  font-size: 14px;
+  line-height: 36px;
+  color: #222220;
+  font-weight: 400;
+  position: relative;
+  background-color: white;
+  border: 1px solid  #CDCDCD;
+  border-radius: 5px;
+}
+.pac-container {
+  z-index: 100000000000 !important;
+}

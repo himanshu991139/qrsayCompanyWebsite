@@ -1,0 +1,5 @@
+# HTTrack Website Copier Cookie File
+# This file format is compatible with Netscape cookies
+www.zuyyu.in	TRUE	/	FALSE	1999999999	csrftoken	CJVP5YPf3ACytlMJsER614NyC6G7CN7BYJMZQF2A6ckbf0ixt1r6v0JAAMtzQSTR
+www.zuyyu.in	TRUE	/	FALSE	1999999999	SameSite	Lax
+
